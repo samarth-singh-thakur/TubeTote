@@ -151,6 +151,7 @@ class App(tk.Tk):
             "postprocessor_hooks": [self._postprocess_hook],
             "quiet": True,
             "no_warnings": True,
+            "noprogress": True,
         }
         if FFMPEG:
             opts["ffmpeg_location"] = FFMPEG
