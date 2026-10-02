@@ -1,4 +1,4 @@
 #!/bin/zsh
-# Launch TubeTote using the project's virtualenv.
+# Launch TubeTote in your default browser.
 cd "$(dirname "$0")"
-exec .venv/bin/python app.py
+exec .venv/bin/python web_app.py "$@"
